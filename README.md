@@ -1,3 +1,16 @@
+You can download the configured Packet Tracer file under the 'Secure Healthcare Network.pkt' thread.  
+
+The password for all networking device CLI is 'cisco'. 
+If for any reason you are having trouble logging in to a networking device, you can bypass sign in by clicking 'Config' at the top of the device panel, and choosing an interface.
+This will take you to global configuration mode of the interface in the CLI.
+
+For Wireless LAN Controller the admin login info is:
+username: admin
+password: C!sco123
+
+After logging in successfully, feel free to look at the configurations by using the 'show start' command.
+
+
 # Skills Demonstrated
 
 This project showcases the design and implementation of a secure, scalable enterprise network using a hierarchical model with redundancy, segmentation, and advanced routing. The lab integrates LAN, WLAN, VoIP, DMZ, cloud access, and virtualized server services while enforcing strong security and high availability across all layers of the infrastructure.
