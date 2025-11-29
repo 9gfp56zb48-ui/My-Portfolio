@@ -12,6 +12,7 @@ password: C!sco123
 After logging in successfully, feel free to look at the configurations by using the 'show start' command.
 
 
+
 # Skills Demonstrated
 
 This project showcases the design and implementation of a secure, scalable enterprise network using a hierarchical model with redundancy, segmentation, and advanced routing. The lab integrates LAN, WLAN, VoIP, DMZ, cloud access, and virtualized server services while enforcing strong security and high availability across all layers of the infrastructure.
@@ -43,6 +44,7 @@ Key Technologies & Skills Used
 - Static addressing for server room devices and dynamic addressing via DHCP
 
 - End-to-end connectivity testing across LAN, WLAN, Voice, DMZ, ISP, and cloud platforms
+
 
 
 # Secure-Healthcare-Network
