@@ -1,4 +1,39 @@
+# Skills Demonstrated
+
+This project showcases the design and implementation of a secure, scalable enterprise network using a hierarchical model with redundancy, segmentation, and advanced routing. The lab integrates LAN, WLAN, VoIP, DMZ, cloud access, and virtualized server services while enforcing strong security and high availability across all layers of the infrastructure.
+
+Key Technologies & Skills Used
+
+- Enterprise network design with hierarchical and redundant architecture
+
+- VLAN, WLAN, VoIP, and DMZ segmentation with scalable subnetting
+
+- OSPF routing across multilayer switches, routers, and the ASA firewall
+
+- Inter-VLAN routing and core switch IP routing configuration
+
+- EtherChannel (LACP) for link aggregation and improved throughput
+
+- HSRP for router redundancy and high availability
+
+- VMware ESXi virtualization hosting DHCP, DNS, LDAP, and internal services
+
+- Cisco ASA firewall configuration with zones, ACLs, security levels, and static routes
+
+- STP security features including PortFast and BPDUguard
+
+- Wireless infrastructure using Cisco WLC and Lightweight APs
+
+- VoIP deployment using Cisco Voice Gateway and telephony services
+
+- Static addressing for server room devices and dynamic addressing via DHCP
+
+- End-to-end connectivity testing across LAN, WLAN, Voice, DMZ, ISP, and cloud platforms
+
+
 # Secure-Healthcare-Network
+
+Project Scope:
 
 Dr. Devi ShettyLabs Limited is an Indian healthcare service provider specializing in diagnostic and related healthcare tests. Headquartered in Mumbai, the company conducts tests on blood, urine, and various human bodily tissues. It strategically employs information technology to digitize and securely access and market its services. The company's offices are located on the 35th, 36th, and 37th floors of the Great Namaste Towers. On the 35th floor, you'll find the Pharmacy and Medical Labs, serving approximately 200 users, along with the Reception and Guest Area accommodating around 1000 users. The 36th floor houses the Doctors and Consultancy department, catering to about 200 users, and also manages Procurement, HR, and Finance operations for 300 users. The 37th floor is divided between Internal Auditors and Corporate functions, involving around 120 users, and an entire IT team consisting of 300 users. The IT department is further structured into various teams, including Brand and Digital Marketing, IT Support, System/Network Admin, Network Security Engineers, Cybersecurity Analysts, Software Engineers, Cloud Engineers, and IT Management. Recognizing substantial growth potential, the company anticipates that the user count for each department will double by 2025, necessitating a focus on scalability during the design and implementation phases.
 
@@ -17,11 +52,13 @@ Cloud computing as an important technology is used to connect clients across the
 Due to security requirements, it has been decided that all LAN, WLAN, and VoIP users will be on a separate network segment within the same local area network. The firewall will be used to set security zones and filter traffic that moves in and out of the zones based on the configured inspection policies.
 
 You have been hired as a network security engineer to design the network according to the requirements set by the senior management. You will consult an appropriate robust network design model to meet the design requirements. You are required to design and implement a secured, reliable, scalable, and robust network system that is paramount to safeguarding the Confidentiality, Integrity, and Availability of data and communication. The company places a strong emphasis on achieving top-tier performance, redundancy, scalability, and availability within its network infrastructure. As such, your task involves creating a comprehensive network design and executing its implementation. To facilitate this endeavor, the company has designated specific IP address ranges:
-WLAN: The WLAN network will operate within the IP address range of 10.10.0.0/16.
-LAN: For the local area network (LAN), the IP address range of 192.168.0.0/20 has been allocated.
-Voice: The Voice network will utilize the IP address range of 172.16.0.0/20.
-DMZ: The Demilitarized Zone (DMZ) will be assigned IP addresses from the range 10.20.20.0/26.
-Public Addresses: Public IP addresses from the range 197.200.100.0 have been allocated for externalfacing services, ensuring a visible and accessible presence on the internet.
+
+- WLAN: The WLAN network will operate within the IP address range of 10.10.0.0/16.
+- LAN: For the local area network (LAN), the IP address range of 192.168.0.0/20 has been allocated.
+- Voice: The Voice network will utilize the IP address range of 172.16.0.0/20.
+- DMZ: The Demilitarized Zone (DMZ) will be assigned IP addresses from the range 10.20.20.0/26.
+- Public Addresses: Public IP addresses from the range 197.200.100.0 have been allocated for externalfacing services, ensuring a visible and accessible presence on the internet.
+
 Technologies Implemented
 Design Tool: Utilize Cisco Packet Tracer for designing and implementing the network solution.
 Hierarchical Design: Implement a hierarchical model that incorporates redundancy for enhanced network resilience.
