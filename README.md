@@ -9,6 +9,8 @@ For Wireless LAN Controller the admin login info is:
 username: admin
 password: C!sco123
 
+To connect a wireless device, under the 'Config' panel click Wireless0 under the INTERFACE subsection on the left panel. The Authentication mode will be WPA-PSK and the pasword will be 'gtech123'
+
 After logging in successfully, feel free to look at the configurations by using the 'show start' command.
 
 
