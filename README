@@ -9,8 +9,6 @@ This project simulates onboarding a business application into an Identity Govern
 - Demonstrate identity lifecycle workflows
 - Document onboarding evidence and validation steps
 
-## Architecture
-(Add diagram image here)
 
 ## Technologies Used
 - Windows Server (Active Directory)
