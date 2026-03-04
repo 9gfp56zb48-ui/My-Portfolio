@@ -1,0 +1,43 @@
+# Enterprise IAM Onboarding Lab
+
+## Overview
+This project simulates onboarding a business application into an Identity Governance and Administration (IGA) environment. The lab demonstrates identity lifecycle management, role-based access control (RBAC), entitlement mapping, and access validation processes aligned with enterprise IAM practices.
+
+## Objectives
+- Simulate application onboarding into IAM controls
+- Implement RBAC using Active Directory groups
+- Demonstrate identity lifecycle workflows
+- Document onboarding evidence and validation steps
+
+## Architecture
+(Add diagram image here)
+
+## Technologies Used
+- Windows Server (Active Directory)
+- Azure AD / Entra ID
+- VirtualBox
+- PowerShell
+- Microsoft Excel (Access Reviews)
+
+## IAM Concepts Demonstrated
+- Identity Governance (IGA)
+- Access Provisioning
+- Entitlement Management
+- Access Reviews
+- Least Privilege
+- Audit Evidence Collection
+
+## Lab Workflow
+1. Create users and departments
+2. Define entitlements (security groups)
+3. Assign role-based access
+4. Perform access validation
+5. Document onboarding evidence
+
+## Validation Steps
+- Verified user authentication
+- Confirmed group membership inheritance
+- Tested privileged access restrictions
+
+## Key Takeaways
+This lab demonstrates how enterprise IAM teams onboard applications while maintaining governance, compliance, and secure access controls.
