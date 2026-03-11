@@ -17,6 +17,7 @@ This project simulates onboarding a business application into an Identity Govern
 - PowerShell
 - Microsoft Excel (Access Reviews)
 
+## Architecture
 ![image alt](https://github.com/9gfp56zb48-ui/My-Portfolio/raw/Enterprise-IAM-Portfolio/images/LABArchitecture.png)
 
 ## IAM Concepts Demonstrated
